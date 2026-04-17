@@ -1,3 +1,5 @@
+本仓库108中是缠中说禅当年的博客原文,因为比较零散,organized-v1是我们通过内容整理后的第一个版本,graphify-out是我们针对 108 目录做的知识图谱扫描
+
 ## graphify
 
 This project has a graphify knowledge graph at graphify-out/.

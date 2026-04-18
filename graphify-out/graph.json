@@ -4,6 +4,61 @@
   "graph": {
     "hyperedges": [
       {
+        "id": "P8\u9ad8\u9636\u7efc\u5408\u5e94\u7528\u4f53\u7cfb",
+        "label": "P8\u9ad8\u9636\u5e94\u7528\u7efc\u5408\uff08\u725b\u718a\u5e02\u5224\u65ad\u3001\u53cd\u5e84\u64cd\u4f5c\u3001\u5b9e\u6218\u6848\u4f8b\u534f\u540c\uff09",
+        "nodes": [
+          "p8_28_\u725b\u718a\u5e02\u5224\u65ad",
+          "p8_29_\u53cd\u5e84\u64cd\u4f5c",
+          "p8_30_\u5b9e\u6218\u6848\u4f8b",
+          "p8_30_\u5f53\u4e0b\u56fe\u89e3\u5206\u6790\u6cd5"
+        ],
+        "relation": "implement",
+        "confidence": "INFERRED",
+        "confidence_score": 0.85,
+        "source_file": "organized-v2/00-\u603b\u8bba.md"
+      },
+      {
+        "id": "\u5f62\u6001\u5b66\u5c42\u7ea7\u4f9d\u8d56\u94fe",
+        "label": "\u5f62\u6001\u5b66\u6784\u4ef6\u7684\u5c42\u7ea7\u9012\u8fdb\u4f9d\u8d56\u5173\u7cfb\uff08\u5206\u578b\u2192\u7b14\u2192\u7ebf\u6bb5\u2192\u4e2d\u67a2\uff09",
+        "nodes": [
+          "p2_04_\u5206\u578b",
+          "p2_05_\u7b14",
+          "p2_06_\u7ebf\u6bb5",
+          "p2_07_\u9012\u5f52\u51fd\u6570f1"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "organized-v2/P2-\u5f62\u6001\u5b66\u57fa\u7840/P2-07-\u5f62\u6001\u5b66\u603b\u8bba\u4e0e\u9012\u5f52\u51fd\u6570.md"
+      },
+      {
+        "id": "three_buy_sell_completeness_system",
+        "label": "\u4e09\u7c7b\u4e70\u5356\u70b9\u5b8c\u5907\u4f53\u7cfb\uff08\u7b2c\u4e00/\u4e8c/\u4e09\u7c7b\u8054\u5408\u6784\u6210\u5b8c\u5907\u64cd\u4f5c\u4f53\u7cfb\uff09",
+        "nodes": [
+          "concept_first_buy",
+          "concept_second_buy",
+          "concept_third_buy",
+          "concept_completeness_theorem"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 0.95,
+        "source_file": "organized-v2/P6-\u4e70\u5356\u70b9\u4f53\u7cfb/P6-23-\u4e09\u7c7b\u4e70\u5356\u70b9\u7684\u5b8c\u5907\u6027.md"
+      },
+      {
+        "id": "operation_system_trinity",
+        "label": "\u64cd\u4f5c\u7cfb\u7edf\u4e09\u4f4d\u4e00\u4f53\uff08\u64cd\u4f5c\u7ea7\u522b+\u533a\u95f4\u5957\u5b9a\u4f4d+\u8d44\u91d1\u7ba1\u7406\uff09",
+        "nodes": [
+          "concept_operation_level",
+          "concept_interval_nesting_method",
+          "concept_zero_cost"
+        ],
+        "relation": "form",
+        "confidence": "INFERRED",
+        "confidence_score": 0.82,
+        "source_file": "organized-v2/P7-\u64cd\u4f5c\u7cfb\u7edf/P7-26-\u64cd\u4f5c\u7ea7\u522b\u9009\u62e9.md"
+      },
+      {
         "id": "\u5f62\u6001\u5b66\u5c42\u7ea7\u4f9d\u8d56\u94fe",
         "label": "\u5f62\u6001\u5b66\u6784\u4ef6\u7684\u5c42\u7ea7\u9012\u8fdb\u4f9d\u8d56\u5173\u7cfb\uff08\u5206\u578b\u2192\u7b14\u2192\u7ebf\u6bb5\u2192\u4e2d\u67a2\uff09",
         "nodes": [
@@ -44,47 +99,6 @@
         "confidence": "INFERRED",
         "confidence_score": 0.85,
         "source_file": "organized-v2/00-\u603b\u8bba.md"
-      },
-      {
-        "id": "three_buy_sell_completeness_system",
-        "label": "\u4e09\u7c7b\u4e70\u5356\u70b9\u5b8c\u5907\u4f53\u7cfb\uff08\u7b2c\u4e00/\u4e8c/\u4e09\u7c7b\u8054\u5408\u6784\u6210\u5b8c\u5907\u64cd\u4f5c\u4f53\u7cfb\uff09",
-        "nodes": [
-          "concept_first_buy",
-          "concept_second_buy",
-          "concept_third_buy",
-          "concept_completeness_theorem"
-        ],
-        "relation": "form",
-        "confidence": "EXTRACTED",
-        "confidence_score": 0.95,
-        "source_file": "organized-v2/P6-\u4e70\u5356\u70b9\u4f53\u7cfb/P6-23-\u4e09\u7c7b\u4e70\u5356\u70b9\u7684\u5b8c\u5907\u6027.md"
-      },
-      {
-        "id": "operation_system_trinity",
-        "label": "\u64cd\u4f5c\u7cfb\u7edf\u4e09\u4f4d\u4e00\u4f53\uff08\u64cd\u4f5c\u7ea7\u522b+\u533a\u95f4\u5957\u5b9a\u4f4d+\u8d44\u91d1\u7ba1\u7406\uff09",
-        "nodes": [
-          "concept_operation_level",
-          "concept_interval_nesting_method",
-          "concept_zero_cost"
-        ],
-        "relation": "form",
-        "confidence": "INFERRED",
-        "confidence_score": 0.82,
-        "source_file": "organized-v2/P7-\u64cd\u4f5c\u7cfb\u7edf/P7-26-\u64cd\u4f5c\u7ea7\u522b\u9009\u62e9.md"
-      },
-      {
-        "id": "pivot_theory_core",
-        "label": "\u4e2d\u67a2\u7406\u8bba\u6838\u5fc3\uff08ZG/ZD+Z\u8d70\u52bf\u6bb5+\u4e09\u79cd\u547d\u8fd0\uff09",
-        "nodes": [
-          "concept_pivot_zdg",
-          "concept_z_segment",
-          "concept_pivot_three_fates",
-          "concept_pivot_six_prices"
-        ],
-        "relation": "form",
-        "confidence": "EXTRACTED",
-        "confidence_score": 0.9,
-        "source_file": "organized-v2/P3-\u4e2d\u67a2\u7406\u8bba/P3-11-\u4e2d\u67a2\u4e2d\u5fc3\u5b9a\u7406.md"
       }
     ]
   },
@@ -98,9 +112,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "00_\u603b\u8bba_\u7f20\u8bba\u4f53\u7cfb",
       "community": 0,
-      "norm_label": "\u7f20\u8bba\u4f53\u7cfb\u5168\u666f(\u603b\u8bba)"
+      "norm_label": "\u7f20\u8bba\u4f53\u7cfb\u5168\u666f(\u603b\u8bba)",
+      "id": "00_\u603b\u8bba_\u7f20\u8bba\u4f53\u7cfb"
     },
     {
       "label": "\u7f20\u8bba\u6838\u5fc3\u516c\u7406\u96c6",
@@ -111,9 +125,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "00_\u603b\u8bba_\u6838\u5fc3\u516c\u7406",
       "community": 0,
-      "norm_label": "\u7f20\u8bba\u6838\u5fc3\u516c\u7406\u96c6"
+      "norm_label": "\u7f20\u8bba\u6838\u5fc3\u516c\u7406\u96c6",
+      "id": "00_\u603b\u8bba_\u6838\u5fc3\u516c\u7406"
     },
     {
       "label": "\u7f20\u8bba\u67e5\u8be2\u8def\u7531\u8868",
@@ -124,9 +138,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "00_\u603b\u8bba_\u67e5\u8be2\u8def\u7531\u8868",
       "community": 0,
-      "norm_label": "\u7f20\u8bba\u67e5\u8be2\u8def\u7531\u8868"
+      "norm_label": "\u7f20\u8bba\u67e5\u8be2\u8def\u7531\u8868",
+      "id": "00_\u603b\u8bba_\u67e5\u8be2\u8def\u7531\u8868"
     },
     {
       "label": "\u5206\u578b\uff08\u9876/\u5e95\u5206\u578b\uff09",
@@ -137,9 +151,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p2_04_\u5206\u578b",
       "community": 0,
-      "norm_label": "\u5206\u578b(\u9876/\u5e95\u5206\u578b)"
+      "norm_label": "\u5206\u578b(\u9876/\u5e95\u5206\u578b)",
+      "id": "p2_04_\u5206\u578b"
     },
     {
       "label": "\u5305\u542b\u5173\u7cfb\u5904\u7406",
@@ -150,9 +164,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p2_04_\u5305\u542b\u5173\u7cfb\u5904\u7406",
       "community": 13,
-      "norm_label": "\u5305\u542b\u5173\u7cfb\u5904\u7406"
+      "norm_label": "\u5305\u542b\u5173\u7cfb\u5904\u7406",
+      "id": "p2_04_\u5305\u542b\u5173\u7cfb\u5904\u7406"
     },
     {
       "label": "\u9876\u5206\u578b",
@@ -163,9 +177,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p2_04_\u9876\u5206\u578b",
       "community": 13,
-      "norm_label": "\u9876\u5206\u578b"
+      "norm_label": "\u9876\u5206\u578b",
+      "id": "p2_04_\u9876\u5206\u578b"
     },
     {
       "label": "\u5e95\u5206\u578b",
@@ -176,9 +190,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p2_04_\u5e95\u5206\u578b",
       "community": 13,
-      "norm_label": "\u5e95\u5206\u578b"
+      "norm_label": "\u5e95\u5206\u578b",
+      "id": "p2_04_\u5e95\u5206\u578b"
     },
     {
       "label": "\u5206\u578b\u5ba2\u89c2\u552f\u4e00\u6027",
@@ -189,9 +203,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p2_04_\u5206\u578b\u5ba2\u89c2\u552f\u4e00\u6027",
       "community": 13,
-      "norm_label": "\u5206\u578b\u5ba2\u89c2\u552f\u4e00\u6027"
+      "norm_label": "\u5206\u578b\u5ba2\u89c2\u552f\u4e00\u6027",
+      "id": "p2_04_\u5206\u578b\u5ba2\u89c2\u552f\u4e00\u6027"
     },
     {
       "label": "\u7b14\uff08\u5411\u4e0a\u7b14/\u5411\u4e0b\u7b14\uff09",
@@ -202,9 +216,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p2_05_\u7b14",
       "community": 4,
-      "norm_label": "\u7b14(\u5411\u4e0a\u7b14/\u5411\u4e0b\u7b14)"
+      "norm_label": "\u7b14(\u5411\u4e0a\u7b14/\u5411\u4e0b\u7b14)",
+      "id": "p2_05_\u7b14"
     },
     {
       "label": "\u7b14\u4e09\u6761\u5145\u8981\u6761\u4ef6\uff08C1/C2/C3\uff09",
@@ -215,9 +229,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p2_05_\u7b14\u5145\u8981\u6761\u4ef6C1C2C3",
       "community": 4,
-      "norm_label": "\u7b14\u4e09\u6761\u5145\u8981\u6761\u4ef6(c1/c2/c3)"
+      "norm_label": "\u7b14\u4e09\u6761\u5145\u8981\u6761\u4ef6(c1/c2/c3)",
+      "id": "p2_05_\u7b14\u5145\u8981\u6761\u4ef6C1C2C3"
     },
     {
       "label": "\u7b14\u5212\u5206\u552f\u4e00\u6027\u5b9a\u7406",
@@ -228,9 +242,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p2_05_\u7b14\u5212\u5206\u552f\u4e00\u6027\u5b9a\u7406",
       "community": 4,
-      "norm_label": "\u7b14\u5212\u5206\u552f\u4e00\u6027\u5b9a\u7406"
+      "norm_label": "\u7b14\u5212\u5206\u552f\u4e00\u6027\u5b9a\u7406",
+      "id": "p2_05_\u7b14\u5212\u5206\u552f\u4e00\u6027\u5b9a\u7406"
     },
     {
       "label": "\u7b14\u7684\u56db\u72b6\u6001\u6570\u7ec4\uff08D,E\uff09",
@@ -241,9 +255,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p2_05_\u56db\u72b6\u6001\u6570\u7ec4DE",
       "community": 4,
-      "norm_label": "\u7b14\u7684\u56db\u72b6\u6001\u6570\u7ec4(d,e)"
+      "norm_label": "\u7b14\u7684\u56db\u72b6\u6001\u6570\u7ec4(d,e)",
+      "id": "p2_05_\u56db\u72b6\u6001\u6570\u7ec4DE"
     },
     {
       "label": "\u7f20\u4e2d\u8bf4\u7985\u7b14\u5b9a\u7406",
@@ -254,9 +268,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p2_05_\u7f20\u4e2d\u8bf4\u7985\u7b14\u5b9a\u7406",
       "community": 4,
-      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u7b14\u5b9a\u7406"
+      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u7b14\u5b9a\u7406",
+      "id": "p2_05_\u7f20\u4e2d\u8bf4\u7985\u7b14\u5b9a\u7406"
     },
     {
       "label": "\u7ebf\u6bb5",
@@ -267,9 +281,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p2_06_\u7ebf\u6bb5",
       "community": 4,
-      "norm_label": "\u7ebf\u6bb5"
+      "norm_label": "\u7ebf\u6bb5",
+      "id": "p2_06_\u7ebf\u6bb5"
     },
     {
       "label": "\u7279\u5f81\u5e8f\u5217",
@@ -280,9 +294,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p2_06_\u7279\u5f81\u5e8f\u5217",
       "community": 4,
-      "norm_label": "\u7279\u5f81\u5e8f\u5217"
+      "norm_label": "\u7279\u5f81\u5e8f\u5217",
+      "id": "p2_06_\u7279\u5f81\u5e8f\u5217"
     },
     {
       "label": "\u7ebf\u6bb5\u7834\u574f\u2014\u2014\u65e0\u7f3a\u53e3\u5f0f\uff08\u7b2c\u4e00\u79cd\u60c5\u51b5\uff09",
@@ -293,9 +307,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p2_06_\u7ebf\u6bb5\u7834\u574f\u7b2c\u4e00\u79cd\u60c5\u51b5",
       "community": 4,
-      "norm_label": "\u7ebf\u6bb5\u7834\u574f\u2014\u2014\u65e0\u7f3a\u53e3\u5f0f(\u7b2c\u4e00\u79cd\u60c5\u51b5)"
+      "norm_label": "\u7ebf\u6bb5\u7834\u574f\u2014\u2014\u65e0\u7f3a\u53e3\u5f0f(\u7b2c\u4e00\u79cd\u60c5\u51b5)",
+      "id": "p2_06_\u7ebf\u6bb5\u7834\u574f\u7b2c\u4e00\u79cd\u60c5\u51b5"
     },
     {
       "label": "\u7ebf\u6bb5\u7834\u574f\u2014\u2014\u6709\u7f3a\u53e3\u5f0f\uff08\u7b2c\u4e8c\u79cd\u60c5\u51b5\uff09",
@@ -306,9 +320,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p2_06_\u7ebf\u6bb5\u7834\u574f\u7b2c\u4e8c\u79cd\u60c5\u51b5",
       "community": 4,
-      "norm_label": "\u7ebf\u6bb5\u7834\u574f\u2014\u2014\u6709\u7f3a\u53e3\u5f0f(\u7b2c\u4e8c\u79cd\u60c5\u51b5)"
+      "norm_label": "\u7ebf\u6bb5\u7834\u574f\u2014\u2014\u6709\u7f3a\u53e3\u5f0f(\u7b2c\u4e8c\u79cd\u60c5\u51b5)",
+      "id": "p2_06_\u7ebf\u6bb5\u7834\u574f\u7b2c\u4e8c\u79cd\u60c5\u51b5"
     },
     {
       "label": "\u7ebf\u6bb5\u5212\u5206\u552f\u4e00\u6027\u5b9a\u7406",
@@ -319,9 +333,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p2_06_\u7ebf\u6bb5\u5212\u5206\u552f\u4e00\u6027\u5b9a\u7406",
       "community": 4,
-      "norm_label": "\u7ebf\u6bb5\u5212\u5206\u552f\u4e00\u6027\u5b9a\u7406"
+      "norm_label": "\u7ebf\u6bb5\u5212\u5206\u552f\u4e00\u6027\u5b9a\u7406",
+      "id": "p2_06_\u7ebf\u6bb5\u5212\u5206\u552f\u4e00\u6027\u5b9a\u7406"
     },
     {
       "label": "\u7f20\u4e2d\u8bf4\u7985\u7ebf\u6bb5\u5206\u89e3\u5b9a\u7406",
@@ -332,9 +346,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p2_06_\u7f20\u4e2d\u8bf4\u7985\u7ebf\u6bb5\u5206\u89e3\u5b9a\u7406",
       "community": 4,
-      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u7ebf\u6bb5\u5206\u89e3\u5b9a\u7406"
+      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u7ebf\u6bb5\u5206\u89e3\u5b9a\u7406",
+      "id": "p2_06_\u7f20\u4e2d\u8bf4\u7985\u7ebf\u6bb5\u5206\u89e3\u5b9a\u7406"
     },
     {
       "label": "\u5f62\u6001\u5b66\uff08Morphology\uff09",
@@ -345,9 +359,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p2_07_\u5f62\u6001\u5b66",
       "community": 0,
-      "norm_label": "\u5f62\u6001\u5b66(morphology)"
+      "norm_label": "\u5f62\u6001\u5b66(morphology)",
+      "id": "p2_07_\u5f62\u6001\u5b66"
     },
     {
       "label": "\u52a8\u529b\u5b66\uff08Dynamics\uff09",
@@ -358,9 +372,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p2_07_\u52a8\u529b\u5b66",
       "community": 0,
-      "norm_label": "\u52a8\u529b\u5b66(dynamics)"
+      "norm_label": "\u52a8\u529b\u5b66(dynamics)",
+      "id": "p2_07_\u52a8\u529b\u5b66"
     },
     {
       "label": "\u9012\u5f52\u51fd\u6570f1\uff08\u8d77\u59cb\u7a0b\u5e8f\uff09",
@@ -371,9 +385,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p2_07_\u9012\u5f52\u51fd\u6570f1",
       "community": 5,
-      "norm_label": "\u9012\u5f52\u51fd\u6570f1(\u8d77\u59cb\u7a0b\u5e8f)"
+      "norm_label": "\u9012\u5f52\u51fd\u6570f1(\u8d77\u59cb\u7a0b\u5e8f)",
+      "id": "p2_07_\u9012\u5f52\u51fd\u6570f1"
     },
     {
       "label": "\u9012\u5f52\u51fd\u6570f2\uff08\u4e2d\u67a2\u8fc7\u7a0b\u89c4\u5219\uff09",
@@ -384,9 +398,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p2_07_\u9012\u5f52\u51fd\u6570f2",
       "community": 5,
-      "norm_label": "\u9012\u5f52\u51fd\u6570f2(\u4e2d\u67a2\u8fc7\u7a0b\u89c4\u5219)"
+      "norm_label": "\u9012\u5f52\u51fd\u6570f2(\u4e2d\u67a2\u8fc7\u7a0b\u89c4\u5219)",
+      "id": "p2_07_\u9012\u5f52\u51fd\u6570f2"
     },
     {
       "label": "\u81ea\u540c\u6784\u6027\u7ed3\u6784",
@@ -397,9 +411,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p2_07_\u81ea\u540c\u6784\u6027\u7ed3\u6784",
       "community": 5,
-      "norm_label": "\u81ea\u540c\u6784\u6027\u7ed3\u6784"
+      "norm_label": "\u81ea\u540c\u6784\u6027\u7ed3\u6784",
+      "id": "p2_07_\u81ea\u540c\u6784\u6027\u7ed3\u6784"
     },
     {
       "label": "\u5f62\u6001\u5b66\u61d2\u4eba\u5b66\u4e60\u8def\u5f84\uff08\u7ebf\u8def\u56fe\uff09",
@@ -410,9 +424,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p2_07_\u61d2\u4eba\u8def\u7ebf\u56fe",
       "community": 4,
-      "norm_label": "\u5f62\u6001\u5b66\u61d2\u4eba\u5b66\u4e60\u8def\u5f84(\u7ebf\u8def\u56fe)"
+      "norm_label": "\u5f62\u6001\u5b66\u61d2\u4eba\u5b66\u4e60\u8def\u5f84(\u7ebf\u8def\u56fe)",
+      "id": "p2_07_\u61d2\u4eba\u8def\u7ebf\u56fe"
     },
     {
       "label": "\u5f62\u6001\u5b66\u72ec\u7acb\u64cd\u4f5c\u6027\u5b9a\u7406",
@@ -423,9 +437,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p2_07_\u5f62\u6001\u5b66\u72ec\u7acb\u64cd\u4f5c\u6027\u5b9a\u7406",
       "community": 0,
-      "norm_label": "\u5f62\u6001\u5b66\u72ec\u7acb\u64cd\u4f5c\u6027\u5b9a\u7406"
+      "norm_label": "\u5f62\u6001\u5b66\u72ec\u7acb\u64cd\u4f5c\u6027\u5b9a\u7406",
+      "id": "p2_07_\u5f62\u6001\u5b66\u72ec\u7acb\u64cd\u4f5c\u6027\u5b9a\u7406"
     },
     {
       "label": "\u8d70\u52bf\u4e09\u5927\u7c7b\u578b\uff08\u4e0a\u6da8/\u4e0b\u8dcc/\u76d8\u6574\uff09",
@@ -436,9 +450,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p4_12_\u8d70\u52bf\u4e09\u5927\u7c7b\u578b",
       "community": 0,
-      "norm_label": "\u8d70\u52bf\u4e09\u5927\u7c7b\u578b(\u4e0a\u6da8/\u4e0b\u8dcc/\u76d8\u6574)"
+      "norm_label": "\u8d70\u52bf\u4e09\u5927\u7c7b\u578b(\u4e0a\u6da8/\u4e0b\u8dcc/\u76d8\u6574)",
+      "id": "p4_12_\u8d70\u52bf\u4e09\u5927\u7c7b\u578b"
     },
     {
       "label": "\u7f20\u4e2d\u8bf4\u7985\u76d8\u6574\uff08\u5355\u4e00\u4e2d\u67a2\uff09",
@@ -449,9 +463,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p4_12_\u7f20\u4e2d\u8bf4\u7985\u76d8\u6574",
       "community": 0,
-      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u76d8\u6574(\u5355\u4e00\u4e2d\u67a2)"
+      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u76d8\u6574(\u5355\u4e00\u4e2d\u67a2)",
+      "id": "p4_12_\u7f20\u4e2d\u8bf4\u7985\u76d8\u6574"
     },
     {
       "label": "\u7f20\u4e2d\u8bf4\u7985\u8d8b\u52bf\uff08\u22652\u4e2a\u65e0\u91cd\u53e0\u4e2d\u67a2\uff09",
@@ -462,9 +476,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p4_12_\u7f20\u4e2d\u8bf4\u7985\u8d8b\u52bf",
       "community": 0,
-      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u8d8b\u52bf(\u22652\u4e2a\u65e0\u91cd\u53e0\u4e2d\u67a2)"
+      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u8d8b\u52bf(\u22652\u4e2a\u65e0\u91cd\u53e0\u4e2d\u67a2)",
+      "id": "p4_12_\u7f20\u4e2d\u8bf4\u7985\u8d8b\u52bf"
     },
     {
       "label": "\u6bcf\u65e5\u8d70\u52bf\u4e09\u5927\u5206\u7c7b\uff08\u65e5\u518530\u5206\u949f\u6846\u67b6\uff09",
@@ -475,9 +489,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p4_12_\u6bcf\u65e5\u8d70\u52bf\u4e09\u5927\u5206\u7c7b",
       "community": 0,
-      "norm_label": "\u6bcf\u65e5\u8d70\u52bf\u4e09\u5927\u5206\u7c7b(\u65e5\u518530\u5206\u949f\u6846\u67b6)"
+      "norm_label": "\u6bcf\u65e5\u8d70\u52bf\u4e09\u5927\u5206\u7c7b(\u65e5\u518530\u5206\u949f\u6846\u67b6)",
+      "id": "p4_12_\u6bcf\u65e5\u8d70\u52bf\u4e09\u5927\u5206\u7c7b"
     },
     {
       "label": "\u8d70\u52bf\u5206\u89e3\u5b9a\u7406\uff08\u4e00/\u4e8c\uff09",
@@ -488,9 +502,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p4_13_\u8d70\u52bf\u5206\u89e3\u5b9a\u7406",
       "community": 0,
-      "norm_label": "\u8d70\u52bf\u5206\u89e3\u5b9a\u7406(\u4e00/\u4e8c)"
+      "norm_label": "\u8d70\u52bf\u5206\u89e3\u5b9a\u7406(\u4e00/\u4e8c)",
+      "id": "p4_13_\u8d70\u52bf\u5206\u89e3\u5b9a\u7406"
     },
     {
       "label": "\u8d70\u52bf\u8fde\u63a5\u7ed3\u5408\u5f8b",
@@ -501,9 +515,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p4_13_\u7ed3\u5408\u5f8b",
       "community": 1,
-      "norm_label": "\u8d70\u52bf\u8fde\u63a5\u7ed3\u5408\u5f8b"
+      "norm_label": "\u8d70\u52bf\u8fde\u63a5\u7ed3\u5408\u5f8b",
+      "id": "p4_13_\u7ed3\u5408\u5f8b"
     },
     {
       "label": "\u8d70\u52bf\u591a\u4e49\u6027",
@@ -514,9 +528,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p4_13_\u8d70\u52bf\u591a\u4e49\u6027",
       "community": 1,
-      "norm_label": "\u8d70\u52bf\u591a\u4e49\u6027"
+      "norm_label": "\u8d70\u52bf\u591a\u4e49\u6027",
+      "id": "p4_13_\u8d70\u52bf\u591a\u4e49\u6027"
     },
     {
       "label": "a+A+b+B+c\u6807\u51c6\u7ed3\u6784",
@@ -527,9 +541,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p4_13_aAbBc\u7ed3\u6784",
       "community": 0,
-      "norm_label": "a+a+b+b+c\u6807\u51c6\u7ed3\u6784"
+      "norm_label": "a+a+b+b+c\u6807\u51c6\u7ed3\u6784",
+      "id": "p4_13_aAbBc\u7ed3\u6784"
     },
     {
       "label": "\u6280\u672f\u5206\u6790\u57fa\u672c\u539f\u7406\u4e00\uff08\u8d70\u52bf\u7ec8\u5b8c\u7f8e\uff09",
@@ -540,9 +554,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p4_13_\u8d70\u52bf\u7ec8\u5b8c\u7f8e\u516c\u7406",
       "community": 0,
-      "norm_label": "\u6280\u672f\u5206\u6790\u57fa\u672c\u539f\u7406\u4e00(\u8d70\u52bf\u7ec8\u5b8c\u7f8e)"
+      "norm_label": "\u6280\u672f\u5206\u6790\u57fa\u672c\u539f\u7406\u4e00(\u8d70\u52bf\u7ec8\u5b8c\u7f8e)",
+      "id": "p4_13_\u8d70\u52bf\u7ec8\u5b8c\u7f8e\u516c\u7406"
     },
     {
       "label": "\u8d70\u52bf\u7ea7\u522b\u4f53\u7cfb\uff08Xn/Yn/Wn/Sn/Rn/Zn/Mn/Jn/Nn\uff09",
@@ -553,9 +567,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p4_14_\u7ea7\u522b\u4f53\u7cfb",
       "community": 5,
-      "norm_label": "\u8d70\u52bf\u7ea7\u522b\u4f53\u7cfb(xn/yn/wn/sn/rn/zn/mn/jn/nn)"
+      "norm_label": "\u8d70\u52bf\u7ea7\u522b\u4f53\u7cfb(xn/yn/wn/sn/rn/zn/mn/jn/nn)",
+      "id": "p4_14_\u7ea7\u522b\u4f53\u7cfb"
     },
     {
       "label": "\u56fe\u8868\u7ea7\u522b\uff08K\u7ebf\u65f6\u95f4\u5468\u671f\uff09vs\u8d70\u52bf\u7ea7\u522b\uff08\u9012\u5f52\u5c42\u6b21\uff09",
@@ -566,9 +580,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p4_14_\u56fe\u8868\u7ea7\u522bvs\u8d70\u52bf\u7ea7\u522b",
       "community": 5,
-      "norm_label": "\u56fe\u8868\u7ea7\u522b(k\u7ebf\u65f6\u95f4\u5468\u671f)vs\u8d70\u52bf\u7ea7\u522b(\u9012\u5f52\u5c42\u6b21)"
+      "norm_label": "\u56fe\u8868\u7ea7\u522b(k\u7ebf\u65f6\u95f4\u5468\u671f)vs\u8d70\u52bf\u7ea7\u522b(\u9012\u5f52\u5c42\u6b21)",
+      "id": "p4_14_\u56fe\u8868\u7ea7\u522bvs\u8d70\u52bf\u7ea7\u522b"
     },
     {
       "label": "\u7ea7\u522b\u4e0e\u65f6\u95f4\u65e0\u5173\u5b9a\u7406",
@@ -579,9 +593,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p4_14_\u7ea7\u522b\u4e0e\u65f6\u95f4\u65e0\u5173\u5b9a\u7406",
       "community": 5,
-      "norm_label": "\u7ea7\u522b\u4e0e\u65f6\u95f4\u65e0\u5173\u5b9a\u7406"
+      "norm_label": "\u7ea7\u522b\u4e0e\u65f6\u95f4\u65e0\u5173\u5b9a\u7406",
+      "id": "p4_14_\u7ea7\u522b\u4e0e\u65f6\u95f4\u65e0\u5173\u5b9a\u7406"
     },
     {
       "label": "\u540c\u7ea7\u522b\u5206\u89e3",
@@ -592,9 +606,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p4_15_\u540c\u7ea7\u522b\u5206\u89e3",
       "community": 5,
-      "norm_label": "\u540c\u7ea7\u522b\u5206\u89e3"
+      "norm_label": "\u540c\u7ea7\u522b\u5206\u89e3",
+      "id": "p4_15_\u540c\u7ea7\u522b\u5206\u89e3"
     },
     {
       "label": "a+A\u7ed3\u6784\uff08\u540c\u7ea7\u522b\u5206\u89e3\u64cd\u4f5c\u5355\u5143\uff09",
@@ -605,9 +619,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p4_15_aA\u7ed3\u6784",
       "community": 5,
-      "norm_label": "a+a\u7ed3\u6784(\u540c\u7ea7\u522b\u5206\u89e3\u64cd\u4f5c\u5355\u5143)"
+      "norm_label": "a+a\u7ed3\u6784(\u540c\u7ea7\u522b\u5206\u89e3\u64cd\u4f5c\u5355\u5143)",
+      "id": "p4_15_aA\u7ed3\u6784"
     },
     {
       "label": "\u591a\u91cd\u8d4b\u683c\u64cd\u4f5c\u7cfb\u7edf",
@@ -618,9 +632,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p4_15_\u591a\u91cd\u8d4b\u683c\u64cd\u4f5c\u7cfb\u7edf",
       "community": 5,
-      "norm_label": "\u591a\u91cd\u8d4b\u683c\u64cd\u4f5c\u7cfb\u7edf"
+      "norm_label": "\u591a\u91cd\u8d4b\u683c\u64cd\u4f5c\u7cfb\u7edf",
+      "id": "p4_15_\u591a\u91cd\u8d4b\u683c\u64cd\u4f5c\u7cfb\u7edf"
     },
     {
       "label": "\u4e70\u5356\u4e0d\u5bf9\u7b49\u6027",
@@ -631,9 +645,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p4_15_\u4e70\u5356\u4e0d\u5bf9\u7b49\u6027",
       "community": 15,
-      "norm_label": "\u4e70\u5356\u4e0d\u5bf9\u7b49\u6027"
+      "norm_label": "\u4e70\u5356\u4e0d\u5bf9\u7b49\u6027",
+      "id": "p4_15_\u4e70\u5356\u4e0d\u5bf9\u7b49\u6027"
     },
     {
       "label": "\u540c\u7ea7\u522b\u5206\u89e3\u552f\u4e00\u6027\u5b9a\u7406",
@@ -644,9 +658,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p4_15_\u540c\u7ea7\u522b\u5206\u89e3\u552f\u4e00\u6027\u5b9a\u7406",
       "community": 5,
-      "norm_label": "\u540c\u7ea7\u522b\u5206\u89e3\u552f\u4e00\u6027\u5b9a\u7406"
+      "norm_label": "\u540c\u7ea7\u522b\u5206\u89e3\u552f\u4e00\u6027\u5b9a\u7406",
+      "id": "p4_15_\u540c\u7ea7\u522b\u5206\u89e3\u552f\u4e00\u6027\u5b9a\u7406"
     },
     {
       "label": "\u80cc\u9a70\uff08\u5747\u7ebf\u9762\u79ef\u6cd5\uff09",
@@ -657,9 +671,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p5_16_\u80cc\u9a70",
       "community": 0,
-      "norm_label": "\u80cc\u9a70(\u5747\u7ebf\u9762\u79ef\u6cd5)"
+      "norm_label": "\u80cc\u9a70(\u5747\u7ebf\u9762\u79ef\u6cd5)",
+      "id": "p5_16_\u80cc\u9a70"
     },
     {
       "label": "\u7f20\u4e2d\u8bf4\u7985\u8d8b\u52bf\u529b\u5ea6\uff08\u5747\u7ebf\u9762\u79ef\uff09",
@@ -670,9 +684,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p5_16_\u8d8b\u52bf\u529b\u5ea6",
       "community": 0,
-      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u8d8b\u52bf\u529b\u5ea6(\u5747\u7ebf\u9762\u79ef)"
+      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u8d8b\u52bf\u529b\u5ea6(\u5747\u7ebf\u9762\u79ef)",
+      "id": "p5_16_\u8d8b\u52bf\u529b\u5ea6"
     },
     {
       "label": "\u80cc\u9a70\u5145\u8981\u6761\u4ef6\u4e09\u5927\u7cbe\u7ec6\u5316\u6761\u4ef6\uff08\u8bfe37\uff09",
@@ -683,9 +697,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p5_16_\u80cc\u9a70\u4e09\u5927\u7cbe\u7ec6\u6761\u4ef6",
       "community": 0,
-      "norm_label": "\u80cc\u9a70\u5145\u8981\u6761\u4ef6\u4e09\u5927\u7cbe\u7ec6\u5316\u6761\u4ef6(\u8bfe37)"
+      "norm_label": "\u80cc\u9a70\u5145\u8981\u6761\u4ef6\u4e09\u5927\u7cbe\u7ec6\u5316\u6761\u4ef6(\u8bfe37)",
+      "id": "p5_16_\u80cc\u9a70\u4e09\u5927\u7cbe\u7ec6\u6761\u4ef6"
     },
     {
       "label": "\u80cc\u9a70\u6bb5\uff08\u8fdb\u5165\u80cc\u9a70\u6bb5\u2260\u80cc\u9a70\u6210\u7acb\uff09",
@@ -696,9 +710,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p5_16_\u80cc\u9a70\u6bb5",
       "community": 0,
-      "norm_label": "\u80cc\u9a70\u6bb5(\u8fdb\u5165\u80cc\u9a70\u6bb5=\u80cc\u9a70\u6210\u7acb)"
+      "norm_label": "\u80cc\u9a70\u6bb5(\u8fdb\u5165\u80cc\u9a70\u6bb5=\u80cc\u9a70\u6210\u7acb)",
+      "id": "p5_16_\u80cc\u9a70\u6bb5"
     },
     {
       "label": "\u6ca1\u6709\u8d8b\u52bf\u6ca1\u6709\u80cc\u9a70\uff08\u6838\u5fc3\u539f\u5219\uff09",
@@ -709,9 +723,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p5_16_\u6ca1\u6709\u8d8b\u52bf\u6ca1\u6709\u80cc\u9a70",
       "community": 0,
-      "norm_label": "\u6ca1\u6709\u8d8b\u52bf\u6ca1\u6709\u80cc\u9a70(\u6838\u5fc3\u539f\u5219)"
+      "norm_label": "\u6ca1\u6709\u8d8b\u52bf\u6ca1\u6709\u80cc\u9a70(\u6838\u5fc3\u539f\u5219)",
+      "id": "p5_16_\u6ca1\u6709\u8d8b\u52bf\u6ca1\u6709\u80cc\u9a70"
     },
     {
       "label": "\u76d8\u6574\u80cc\u9a70",
@@ -722,9 +736,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p5_17_\u76d8\u6574\u80cc\u9a70",
       "community": 0,
-      "norm_label": "\u76d8\u6574\u80cc\u9a70"
+      "norm_label": "\u76d8\u6574\u80cc\u9a70",
+      "id": "p5_17_\u76d8\u6574\u80cc\u9a70"
     },
     {
       "label": "\u8d8b\u52bf\u80cc\u9a70",
@@ -735,9 +749,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p5_17_\u8d8b\u52bf\u80cc\u9a70",
       "community": 0,
-      "norm_label": "\u8d8b\u52bf\u80cc\u9a70"
+      "norm_label": "\u8d8b\u52bf\u80cc\u9a70",
+      "id": "p5_17_\u8d8b\u52bf\u80cc\u9a70"
     },
     {
       "label": "\u7f20\u4e2d\u8bf4\u7985\u80cc\u9a70-\u8f6c\u6298\u5b9a\u7406\uff08\u4e09\u79cd\u540e\u679c\uff09",
@@ -748,9 +762,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p5_17_\u80cc\u9a70\u8f6c\u6298\u5b9a\u7406",
       "community": 1,
-      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u80cc\u9a70-\u8f6c\u6298\u5b9a\u7406(\u4e09\u79cd\u540e\u679c)"
+      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u80cc\u9a70-\u8f6c\u6298\u5b9a\u7406(\u4e09\u79cd\u540e\u679c)",
+      "id": "p5_17_\u80cc\u9a70\u8f6c\u6298\u5b9a\u7406"
     },
     {
       "label": "\u8d8b\u52bf\u80cc\u9a70\u5fc5\u56de\u6700\u540e\u4e2d\u67a2\uff08\u4e0b\u9650\u7ea6\u675f\uff09",
@@ -761,9 +775,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p5_17_\u8d8b\u52bf\u80cc\u9a70\u5fc5\u56de\u6700\u540e\u4e2d\u67a2",
       "community": 0,
-      "norm_label": "\u8d8b\u52bf\u80cc\u9a70\u5fc5\u56de\u6700\u540e\u4e2d\u67a2(\u4e0b\u9650\u7ea6\u675f)"
+      "norm_label": "\u8d8b\u52bf\u80cc\u9a70\u5fc5\u56de\u6700\u540e\u4e2d\u67a2(\u4e0b\u9650\u7ea6\u675f)",
+      "id": "p5_17_\u8d8b\u52bf\u80cc\u9a70\u5fc5\u56de\u6700\u540e\u4e2d\u67a2"
     },
     {
       "label": "\u7cbe\u786e\u5927\u8f6c\u6298\u70b9\u5bfb\u627e\u7a0b\u5e8f\u5b9a\u7406\uff08\u533a\u95f4\u5957\uff09",
@@ -774,9 +788,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p5_17_\u533a\u95f4\u5957\u7cbe\u786e\u5b9a\u4f4d\u7a0b\u5e8f",
       "community": 1,
-      "norm_label": "\u7cbe\u786e\u5927\u8f6c\u6298\u70b9\u5bfb\u627e\u7a0b\u5e8f\u5b9a\u7406(\u533a\u95f4\u5957)"
+      "norm_label": "\u7cbe\u786e\u5927\u8f6c\u6298\u70b9\u5bfb\u627e\u7a0b\u5e8f\u5b9a\u7406(\u533a\u95f4\u5957)",
+      "id": "p5_17_\u533a\u95f4\u5957\u7cbe\u786e\u5b9a\u4f4d\u7a0b\u5e8f"
     },
     {
       "label": "MACD\u8f85\u52a9\u5224\u65ad\u80cc\u9a70",
@@ -787,9 +801,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p5_18_MACD\u8f85\u52a9\u5224\u65ad",
       "community": 0,
-      "norm_label": "macd\u8f85\u52a9\u5224\u65ad\u80cc\u9a70"
+      "norm_label": "macd\u8f85\u52a9\u5224\u65ad\u80cc\u9a70",
+      "id": "p5_18_MACD\u8f85\u52a9\u5224\u65ad"
     },
     {
       "label": "MACD\u6807\u51c6\u80cc\u9a70\u5224\u65ad\u65b9\u6cd5\uff08A-B-C\u4e09\u6bb5\uff09",
@@ -800,9 +814,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p5_18_MACD\u6807\u51c6\u65b9\u6cd5ABC",
       "community": 0,
-      "norm_label": "macd\u6807\u51c6\u80cc\u9a70\u5224\u65ad\u65b9\u6cd5(a-b-c\u4e09\u6bb5)"
+      "norm_label": "macd\u6807\u51c6\u80cc\u9a70\u5224\u65ad\u65b9\u6cd5(a-b-c\u4e09\u6bb5)",
+      "id": "p5_18_MACD\u6807\u51c6\u65b9\u6cd5ABC"
     },
     {
       "label": "MACD\u4f7f\u7528\u987a\u5e8f\u539f\u5219\uff08\u5148\u7ed3\u6784\u540e\u6307\u6807\uff09",
@@ -813,9 +827,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p5_18_\u5148\u7ed3\u6784\u540e\u6307\u6807\u987a\u5e8f\u539f\u5219",
       "community": 0,
-      "norm_label": "macd\u4f7f\u7528\u987a\u5e8f\u539f\u5219(\u5148\u7ed3\u6784\u540e\u6307\u6807)"
+      "norm_label": "macd\u4f7f\u7528\u987a\u5e8f\u539f\u5219(\u5148\u7ed3\u6784\u540e\u6307\u6807)",
+      "id": "p5_18_\u5148\u7ed3\u6784\u540e\u6307\u6807\u987a\u5e8f\u539f\u5219"
     },
     {
       "label": "\u96f6\u8f74\u9632\u72fc\u672f",
@@ -826,9 +840,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p5_18_\u96f6\u8f74\u9632\u72fc\u672f",
       "community": 0,
-      "norm_label": "\u96f6\u8f74\u9632\u72fc\u672f"
+      "norm_label": "\u96f6\u8f74\u9632\u72fc\u672f",
+      "id": "p5_18_\u96f6\u8f74\u9632\u72fc\u672f"
     },
     {
       "label": "MACD\u7ea7\u522b\u5dee\u5f02\u5316\u4f7f\u7528\u89c4\u5219\uff081\u5206\u949f\u4ee5\u4e0bvs\u4ee5\u4e0a\uff09",
@@ -839,9 +853,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p5_18_\u7ea7\u522b\u5dee\u5f02\u5316\u4f7f\u7528\u89c4\u5219",
       "community": 0,
-      "norm_label": "macd\u7ea7\u522b\u5dee\u5f02\u5316\u4f7f\u7528\u89c4\u5219(1\u5206\u949f\u4ee5\u4e0bvs\u4ee5\u4e0a)"
+      "norm_label": "macd\u7ea7\u522b\u5dee\u5f02\u5316\u4f7f\u7528\u89c4\u5219(1\u5206\u949f\u4ee5\u4e0bvs\u4ee5\u4e0a)",
+      "id": "p5_18_\u7ea7\u522b\u5dee\u5f02\u5316\u4f7f\u7528\u89c4\u5219"
     },
     {
       "label": "\u80cc\u9a70\u7ea7\u522b",
@@ -852,9 +866,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p5_19_\u80cc\u9a70\u7ea7\u522b",
       "community": 0,
-      "norm_label": "\u80cc\u9a70\u7ea7\u522b"
+      "norm_label": "\u80cc\u9a70\u7ea7\u522b",
+      "id": "p5_19_\u80cc\u9a70\u7ea7\u522b"
     },
     {
       "label": "\u8f6c\u6298\u7ea7\u522b",
@@ -865,9 +879,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p5_19_\u8f6c\u6298\u7ea7\u522b",
       "community": 0,
-      "norm_label": "\u8f6c\u6298\u7ea7\u522b"
+      "norm_label": "\u8f6c\u6298\u7ea7\u522b",
+      "id": "p5_19_\u8f6c\u6298\u7ea7\u522b"
     },
     {
       "label": "\u80cc\u9a70\u7ea7\u522b\u2265\u8f6c\u6298\u7ea7\u522b\uff08\u7edd\u5bf9\u9884\u6d4b\u5b9a\u7406\uff09",
@@ -878,9 +892,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p5_19_\u80cc\u9a70\u7ea7\u522b\u5927\u4e8e\u7b49\u4e8e\u8f6c\u6298\u7ea7\u522b",
       "community": 1,
-      "norm_label": "\u80cc\u9a70\u7ea7\u522b\u2265\u8f6c\u6298\u7ea7\u522b(\u7edd\u5bf9\u9884\u6d4b\u5b9a\u7406)"
+      "norm_label": "\u80cc\u9a70\u7ea7\u522b\u2265\u8f6c\u6298\u7ea7\u522b(\u7edd\u5bf9\u9884\u6d4b\u5b9a\u7406)",
+      "id": "p5_19_\u80cc\u9a70\u7ea7\u522b\u5927\u4e8e\u7b49\u4e8e\u8f6c\u6298\u7ea7\u522b"
     },
     {
       "label": "\u540c\u7ea7\u80cc\u9a70\u5fc5\u7136\u56de\u6700\u540e\u4e2d\u67a2",
@@ -891,9 +905,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p5_19_\u540c\u7ea7\u80cc\u9a70\u5fc5\u7136\u56de\u6700\u540e\u4e2d\u67a2",
       "community": 1,
-      "norm_label": "\u540c\u7ea7\u80cc\u9a70\u5fc5\u7136\u56de\u6700\u540e\u4e2d\u67a2"
+      "norm_label": "\u540c\u7ea7\u80cc\u9a70\u5fc5\u7136\u56de\u6700\u540e\u4e2d\u67a2",
+      "id": "p5_19_\u540c\u7ea7\u80cc\u9a70\u5fc5\u7136\u56de\u6700\u540e\u4e2d\u67a2"
     },
     {
       "label": "\u7f20\u4e2d\u8bf4\u7985\u5c0f\u80cc\u9a70-\u5927\u8f6c\u6298\u5b9a\u7406\uff08\u4ec5\u5fc5\u8981\u6761\u4ef6\uff09",
@@ -904,9 +918,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p5_19_\u5c0f\u80cc\u9a70\u5927\u8f6c\u6298\u5b9a\u7406",
       "community": 1,
-      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u5c0f\u80cc\u9a70-\u5927\u8f6c\u6298\u5b9a\u7406(\u4ec5\u5fc5\u8981\u6761\u4ef6)"
+      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u5c0f\u80cc\u9a70-\u5927\u8f6c\u6298\u5b9a\u7406(\u4ec5\u5fc5\u8981\u6761\u4ef6)",
+      "id": "p5_19_\u5c0f\u80cc\u9a70\u5927\u8f6c\u6298\u5b9a\u7406"
     },
     {
       "label": "\u4e09\u91cd\u533a\u95f4\u5957\u5d4c\u5957\u80cc\u9a70\u5b9a\u7406",
@@ -917,9 +931,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p5_19_\u4e09\u91cd\u533a\u95f4\u5957\u5d4c\u5957\u5b9a\u7406",
       "community": 1,
-      "norm_label": "\u4e09\u91cd\u533a\u95f4\u5957\u5d4c\u5957\u80cc\u9a70\u5b9a\u7406"
+      "norm_label": "\u4e09\u91cd\u533a\u95f4\u5957\u5d4c\u5957\u80cc\u9a70\u5b9a\u7406",
+      "id": "p5_19_\u4e09\u91cd\u533a\u95f4\u5957\u5d4c\u5957\u5b9a\u7406"
     },
     {
       "label": "\u725b\u718a\u5e02\u5224\u65ad\u4e0e\u5927\u8d44\u91d1\u7b56\u7565",
@@ -930,9 +944,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p8_28_\u725b\u718a\u5e02\u5224\u65ad",
       "community": 2,
-      "norm_label": "\u725b\u718a\u5e02\u5224\u65ad\u4e0e\u5927\u8d44\u91d1\u7b56\u7565"
+      "norm_label": "\u725b\u718a\u5e02\u5224\u65ad\u4e0e\u5927\u8d44\u91d1\u7b56\u7565",
+      "id": "p8_28_\u725b\u718a\u5e02\u5224\u65ad"
     },
     {
       "label": "\u725b\u5e02\u4e09\u9636\u6bb5\u8bba",
@@ -943,9 +957,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p8_28_\u725b\u5e02\u4e09\u9636\u6bb5",
       "community": 2,
-      "norm_label": "\u725b\u5e02\u4e09\u9636\u6bb5\u8bba"
+      "norm_label": "\u725b\u5e02\u4e09\u9636\u6bb5\u8bba",
+      "id": "p8_28_\u725b\u5e02\u4e09\u9636\u6bb5"
     },
     {
       "label": "\u725b\u5e02\u4e00\u591c\u60c5\uff08\u66b4\u8dcc\u2260\u9876\uff09",
@@ -956,9 +970,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p8_28_\u725b\u5e02\u4e00\u591c\u60c5",
       "community": 2,
-      "norm_label": "\u725b\u5e02\u4e00\u591c\u60c5(\u66b4\u8dcc=\u9876)"
+      "norm_label": "\u725b\u5e02\u4e00\u591c\u60c5(\u66b4\u8dcc=\u9876)",
+      "id": "p8_28_\u725b\u5e02\u4e00\u591c\u60c5"
     },
     {
       "label": "\u79ef\u7d2f\u7b79\u7801\u964d\u6210\u672c\u7b56\u7565",
@@ -969,9 +983,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p8_28_\u79ef\u7d2f\u7b79\u7801\u964d\u6210\u672c",
       "community": 2,
-      "norm_label": "\u79ef\u7d2f\u7b79\u7801\u964d\u6210\u672c\u7b56\u7565"
+      "norm_label": "\u79ef\u7d2f\u7b79\u7801\u964d\u6210\u672c\u7b56\u7565",
+      "id": "p8_28_\u79ef\u7d2f\u7b79\u7801\u964d\u6210\u672c"
     },
     {
       "label": "\u653f\u7b56\u9762\u6700\u5927\u5f71\u54cd\u7ea7\u522b\u5b9a\u7406\uff08\u5468\u7ebf\u7ea7\u522b\uff09",
@@ -982,9 +996,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p8_28_\u653f\u7b56\u9762\u6700\u5927\u5f71\u54cd\u7ea7\u522b\u5b9a\u7406",
       "community": 2,
-      "norm_label": "\u653f\u7b56\u9762\u6700\u5927\u5f71\u54cd\u7ea7\u522b\u5b9a\u7406(\u5468\u7ebf\u7ea7\u522b)"
+      "norm_label": "\u653f\u7b56\u9762\u6700\u5927\u5f71\u54cd\u7ea7\u522b\u5b9a\u7406(\u5468\u7ebf\u7ea7\u522b)",
+      "id": "p8_28_\u653f\u7b56\u9762\u6700\u5927\u5f71\u54cd\u7ea7\u522b\u5b9a\u7406"
     },
     {
       "label": "\u5927\u8d44\u91d1\u64cd\u4f5c\u7ea7\u522b\u539f\u5219\uff08\u9ad8\u51fa\u6563\u6237\u4e24\u91cd\uff09",
@@ -995,9 +1009,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p8_28_\u5927\u8d44\u91d1\u64cd\u4f5c\u7ea7\u522b\u539f\u5219",
       "community": 2,
-      "norm_label": "\u5927\u8d44\u91d1\u64cd\u4f5c\u7ea7\u522b\u539f\u5219(\u9ad8\u51fa\u6563\u6237\u4e24\u91cd)"
+      "norm_label": "\u5927\u8d44\u91d1\u64cd\u4f5c\u7ea7\u522b\u539f\u5219(\u9ad8\u51fa\u6563\u6237\u4e24\u91cd)",
+      "id": "p8_28_\u5927\u8d44\u91d1\u64cd\u4f5c\u7ea7\u522b\u539f\u5219"
     },
     {
       "label": "\u53cd\u5e84\u64cd\u4f5c",
@@ -1008,9 +1022,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p8_29_\u53cd\u5e84\u64cd\u4f5c",
       "community": 2,
-      "norm_label": "\u53cd\u5e84\u64cd\u4f5c"
+      "norm_label": "\u53cd\u5e84\u64cd\u4f5c",
+      "id": "p8_29_\u53cd\u5e84\u64cd\u4f5c"
     },
     {
       "label": "\u4e3b\u529b\u8d44\u91d1\u98df\u7269\u94fe",
@@ -1021,9 +1035,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p8_29_\u4e3b\u529b\u8d44\u91d1\u98df\u7269\u94fe",
       "community": 2,
-      "norm_label": "\u4e3b\u529b\u8d44\u91d1\u98df\u7269\u94fe"
+      "norm_label": "\u4e3b\u529b\u8d44\u91d1\u98df\u7269\u94fe",
+      "id": "p8_29_\u4e3b\u529b\u8d44\u91d1\u98df\u7269\u94fe"
     },
     {
       "label": "\u65f6\u95f4\u963b\u51fb",
@@ -1034,9 +1048,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p8_29_\u65f6\u95f4\u963b\u51fb",
       "community": 2,
-      "norm_label": "\u65f6\u95f4\u963b\u51fb"
+      "norm_label": "\u65f6\u95f4\u963b\u51fb",
+      "id": "p8_29_\u65f6\u95f4\u963b\u51fb"
     },
     {
       "label": "\u7a7a\u95f4\u963b\u51fb",
@@ -1047,9 +1061,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p8_29_\u7a7a\u95f4\u963b\u51fb",
       "community": 2,
-      "norm_label": "\u7a7a\u95f4\u963b\u51fb"
+      "norm_label": "\u7a7a\u95f4\u963b\u51fb",
+      "id": "p8_29_\u7a7a\u95f4\u963b\u51fb"
     },
     {
       "label": "\u505a\u9876\u51fa\u8d27\uff08\u5408\u529b\u7684\u8d2a\u55d4\u75f4\u7591\u6162\uff09",
@@ -1060,9 +1074,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p8_29_\u505a\u9876\u51fa\u8d27",
       "community": 2,
-      "norm_label": "\u505a\u9876\u51fa\u8d27(\u5408\u529b\u7684\u8d2a\u55d4\u75f4\u7591\u6162)"
+      "norm_label": "\u505a\u9876\u51fa\u8d27(\u5408\u529b\u7684\u8d2a\u55d4\u75f4\u7591\u6162)",
+      "id": "p8_29_\u505a\u9876\u51fa\u8d27"
     },
     {
       "label": "\u505a\u5e95\u5438\u8d27\uff080\u6210\u672c\u7b79\u7801\uff09",
@@ -1073,9 +1087,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p8_29_\u505a\u5e95\u5438\u8d27",
       "community": 2,
-      "norm_label": "\u505a\u5e95\u5438\u8d27(0\u6210\u672c\u7b79\u7801)"
+      "norm_label": "\u505a\u5e95\u5438\u8d27(0\u6210\u672c\u7b79\u7801)",
+      "id": "p8_29_\u505a\u5e95\u5438\u8d27"
     },
     {
       "label": "\u4e70\u5356\u70b9\u4e0d\u53ef\u9003\u907f\u5b9a\u7406",
@@ -1086,9 +1100,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p8_29_\u4e70\u5356\u70b9\u4e0d\u53ef\u9003\u907f\u5b9a\u7406",
       "community": 2,
-      "norm_label": "\u4e70\u5356\u70b9\u4e0d\u53ef\u9003\u907f\u5b9a\u7406"
+      "norm_label": "\u4e70\u5356\u70b9\u4e0d\u53ef\u9003\u907f\u5b9a\u7406",
+      "id": "p8_29_\u4e70\u5356\u70b9\u4e0d\u53ef\u9003\u907f\u5b9a\u7406"
     },
     {
       "label": "\u5b9e\u6218\u6848\u4f8b\u7cbe\u89e3",
@@ -1099,9 +1113,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p8_30_\u5b9e\u6218\u6848\u4f8b",
       "community": 1,
-      "norm_label": "\u5b9e\u6218\u6848\u4f8b\u7cbe\u89e3"
+      "norm_label": "\u5b9e\u6218\u6848\u4f8b\u7cbe\u89e3",
+      "id": "p8_30_\u5b9e\u6218\u6848\u4f8b"
     },
     {
       "label": "\u5f53\u4e0b\u56fe\u89e3\u5206\u6790\u6cd5\uff08\u4e0d\u9884\u6d4b\u53ea\u5206\u7c7b\uff09",
@@ -1112,9 +1126,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p8_30_\u5f53\u4e0b\u56fe\u89e3\u5206\u6790\u6cd5",
       "community": 1,
-      "norm_label": "\u5f53\u4e0b\u56fe\u89e3\u5206\u6790\u6cd5(\u4e0d\u9884\u6d4b\u53ea\u5206\u7c7b)"
+      "norm_label": "\u5f53\u4e0b\u56fe\u89e3\u5206\u6790\u6cd5(\u4e0d\u9884\u6d4b\u53ea\u5206\u7c7b)",
+      "id": "p8_30_\u5f53\u4e0b\u56fe\u89e3\u5206\u6790\u6cd5"
     },
     {
       "label": "\u8d70\u52bf\u591a\u6837\u6027\u5206\u89e3",
@@ -1125,9 +1139,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p8_30_\u8d70\u52bf\u591a\u6837\u6027\u5206\u89e3",
       "community": 1,
-      "norm_label": "\u8d70\u52bf\u591a\u6837\u6027\u5206\u89e3"
+      "norm_label": "\u8d70\u52bf\u591a\u6837\u6027\u5206\u89e3",
+      "id": "p8_30_\u8d70\u52bf\u591a\u6837\u6027\u5206\u89e3"
     },
     {
       "label": "\u5f53\u4e0b\u5206\u6790\u5b8c\u5168\u5206\u7c7b\u5b9a\u7406",
@@ -1138,9 +1152,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p8_30_\u5f53\u4e0b\u5206\u6790\u5b8c\u5168\u5206\u7c7b\u5b9a\u7406",
       "community": 1,
-      "norm_label": "\u5f53\u4e0b\u5206\u6790\u5b8c\u5168\u5206\u7c7b\u5b9a\u7406"
+      "norm_label": "\u5f53\u4e0b\u5206\u6790\u5b8c\u5168\u5206\u7c7b\u5b9a\u7406",
+      "id": "p8_30_\u5f53\u4e0b\u5206\u6790\u5b8c\u5168\u5206\u7c7b\u5b9a\u7406"
     },
     {
       "label": "\u7f20\u4e2d\u8bf4\u7985\u677f\u5757\u5f3a\u5f31\u6307\u6807",
@@ -1151,9 +1165,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p8_30_\u677f\u5757\u5f3a\u5f31\u6307\u6807",
       "community": 1,
-      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u677f\u5757\u5f3a\u5f31\u6307\u6807"
+      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u677f\u5757\u5f3a\u5f31\u6307\u6807",
+      "id": "p8_30_\u677f\u5757\u5f3a\u5f31\u6307\u6807"
     },
     {
       "label": "\u9644\u5f55B\uff1a\u5b9a\u7406\u7d22\u5f15",
@@ -1164,9 +1178,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "appendix_b_\u5b9a\u7406\u7d22\u5f15",
       "community": 0,
-      "norm_label": "\u9644\u5f55b:\u5b9a\u7406\u7d22\u5f15"
+      "norm_label": "\u9644\u5f55b:\u5b9a\u7406\u7d22\u5f15",
+      "id": "appendix_b_\u5b9a\u7406\u7d22\u5f15"
     },
     {
       "label": "\u9644\u5f55D\uff1a\u72b6\u6001\u6761\u4ef6\u901f\u67e5",
@@ -1177,9 +1191,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "appendix_d_\u72b6\u6001\u6761\u4ef6\u901f\u67e5",
       "community": 0,
-      "norm_label": "\u9644\u5f55d:\u72b6\u6001\u6761\u4ef6\u901f\u67e5"
+      "norm_label": "\u9644\u5f55d:\u72b6\u6001\u6761\u4ef6\u901f\u67e5",
+      "id": "appendix_d_\u72b6\u6001\u6761\u4ef6\u901f\u67e5"
     },
     {
       "label": "\u9644\u5f55A\uff1a\u5b9a\u4e49\u901f\u67e5",
@@ -1190,9 +1204,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "appendix_a_definitions",
-      "community": 7,
-      "norm_label": "\u9644\u5f55a:\u5b9a\u4e49\u901f\u67e5"
+      "community": 9,
+      "norm_label": "\u9644\u5f55a:\u5b9a\u4e49\u901f\u67e5",
+      "id": "appendix_a_definitions"
     },
     {
       "label": "\u9644\u5f55C\uff1a\u64cd\u4f5c\u89c4\u5219\u603b\u8868",
@@ -1203,9 +1217,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "appendix_c_rules",
       "community": 7,
-      "norm_label": "\u9644\u5f55c:\u64cd\u4f5c\u89c4\u5219\u603b\u8868"
+      "norm_label": "\u9644\u5f55c:\u64cd\u4f5c\u89c4\u5219\u603b\u8868",
+      "id": "appendix_c_rules"
     },
     {
       "label": "\u9644\u5f55E\uff1a\u539f\u6587\u7d22\u5f15",
@@ -1216,9 +1230,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "appendix_e_index",
-      "community": 9,
-      "norm_label": "\u9644\u5f55e:\u539f\u6587\u7d22\u5f15"
+      "community": 7,
+      "norm_label": "\u9644\u5f55e:\u539f\u6587\u7d22\u5f15",
+      "id": "appendix_e_index"
     },
     {
       "label": "P1-01 \u5e02\u573a\u672c\u8d28\u4e0e\u7ecf\u6d4e\u4eba\u539f\u5219",
@@ -1229,9 +1243,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p1_01_market_principles",
       "community": 9,
-      "norm_label": "p1-01 \u5e02\u573a\u672c\u8d28\u4e0e\u7ecf\u6d4e\u4eba\u539f\u5219"
+      "norm_label": "p1-01 \u5e02\u573a\u672c\u8d28\u4e0e\u7ecf\u6d4e\u4eba\u539f\u5219",
+      "id": "p1_01_market_principles"
     },
     {
       "label": "P1-02 \u5f53\u4e0b\u6027\u54f2\u5b66",
@@ -1242,9 +1256,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p1_02_present_philosophy",
-      "community": 11,
-      "norm_label": "p1-02 \u5f53\u4e0b\u6027\u54f2\u5b66"
+      "community": 10,
+      "norm_label": "p1-02 \u5f53\u4e0b\u6027\u54f2\u5b66",
+      "id": "p1_02_present_philosophy"
     },
     {
       "label": "P1-03 \u8d2a\u55d4\u75f4\u4e0e\u4eba\u6027\u9677\u9631",
@@ -1255,9 +1269,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p1_03_greed_traps",
-      "community": 10,
-      "norm_label": "p1-03 \u8d2a\u55d4\u75f4\u4e0e\u4eba\u6027\u9677\u9631"
+      "community": 11,
+      "norm_label": "p1-03 \u8d2a\u55d4\u75f4\u4e0e\u4eba\u6027\u9677\u9631",
+      "id": "p1_03_greed_traps"
     },
     {
       "label": "P3-08 \u8d70\u52bf\u4e2d\u67a2\u5b9a\u4e49",
@@ -1268,9 +1282,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p3_08_pivot_definition",
       "community": 3,
-      "norm_label": "p3-08 \u8d70\u52bf\u4e2d\u67a2\u5b9a\u4e49"
+      "norm_label": "p3-08 \u8d70\u52bf\u4e2d\u67a2\u5b9a\u4e49",
+      "id": "p3_08_pivot_definition"
     },
     {
       "label": "P3-09 \u4e2d\u67a2\u7684\u7ea7\u522b\u6269\u5f20",
@@ -1281,9 +1295,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p3_09_pivot_expansion",
       "community": 3,
-      "norm_label": "p3-09 \u4e2d\u67a2\u7684\u7ea7\u522b\u6269\u5f20"
+      "norm_label": "p3-09 \u4e2d\u67a2\u7684\u7ea7\u522b\u6269\u5f20",
+      "id": "p3_09_pivot_expansion"
     },
     {
       "label": "P3-10 \u4e2d\u67a2\u9707\u8361\u4e0e\u5ef6\u4f38",
@@ -1294,9 +1308,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p3_10_pivot_oscillation",
       "community": 3,
-      "norm_label": "p3-10 \u4e2d\u67a2\u9707\u8361\u4e0e\u5ef6\u4f38"
+      "norm_label": "p3-10 \u4e2d\u67a2\u9707\u8361\u4e0e\u5ef6\u4f38",
+      "id": "p3_10_pivot_oscillation"
     },
     {
       "label": "P3-11 \u4e2d\u67a2\u4e2d\u5fc3\u5b9a\u7406",
@@ -1307,9 +1321,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p3_11_pivot_center_theorem",
       "community": 7,
-      "norm_label": "p3-11 \u4e2d\u67a2\u4e2d\u5fc3\u5b9a\u7406"
+      "norm_label": "p3-11 \u4e2d\u67a2\u4e2d\u5fc3\u5b9a\u7406",
+      "id": "p3_11_pivot_center_theorem"
     },
     {
       "label": "P6-20 \u7b2c\u4e00\u7c7b\u4e70\u5356\u70b9",
@@ -1320,9 +1334,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p6_20_first_buy_sell",
       "community": 6,
-      "norm_label": "p6-20 \u7b2c\u4e00\u7c7b\u4e70\u5356\u70b9"
+      "norm_label": "p6-20 \u7b2c\u4e00\u7c7b\u4e70\u5356\u70b9",
+      "id": "p6_20_first_buy_sell"
     },
     {
       "label": "P6-21 \u7b2c\u4e8c\u7c7b\u4e70\u5356\u70b9",
@@ -1333,9 +1347,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p6_21_second_buy_sell",
       "community": 6,
-      "norm_label": "p6-21 \u7b2c\u4e8c\u7c7b\u4e70\u5356\u70b9"
+      "norm_label": "p6-21 \u7b2c\u4e8c\u7c7b\u4e70\u5356\u70b9",
+      "id": "p6_21_second_buy_sell"
     },
     {
       "label": "P6-22 \u7b2c\u4e09\u7c7b\u4e70\u5356\u70b9",
@@ -1346,9 +1360,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p6_22_third_buy_sell",
       "community": 7,
-      "norm_label": "p6-22 \u7b2c\u4e09\u7c7b\u4e70\u5356\u70b9"
+      "norm_label": "p6-22 \u7b2c\u4e09\u7c7b\u4e70\u5356\u70b9",
+      "id": "p6_22_third_buy_sell"
     },
     {
       "label": "P6-23 \u4e09\u7c7b\u4e70\u5356\u70b9\u7684\u5b8c\u5907\u6027",
@@ -1359,9 +1373,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p6_23_completeness",
       "community": 7,
-      "norm_label": "p6-23 \u4e09\u7c7b\u4e70\u5356\u70b9\u7684\u5b8c\u5907\u6027"
+      "norm_label": "p6-23 \u4e09\u7c7b\u4e70\u5356\u70b9\u7684\u5b8c\u5907\u6027",
+      "id": "p6_23_completeness"
     },
     {
       "label": "P7-24 \u5747\u7ebf\u543b\u7406\u8bba",
@@ -1372,9 +1386,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p7_24_ma_kiss",
       "community": 12,
-      "norm_label": "p7-24 \u5747\u7ebf\u543b\u7406\u8bba"
+      "norm_label": "p7-24 \u5747\u7ebf\u543b\u7406\u8bba",
+      "id": "p7_24_ma_kiss"
     },
     {
       "label": "P7-25 \u533a\u95f4\u5957\u7cbe\u786e\u5b9a\u4f4d",
@@ -1385,9 +1399,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p7_25_interval_nesting",
       "community": 14,
-      "norm_label": "p7-25 \u533a\u95f4\u5957\u7cbe\u786e\u5b9a\u4f4d"
+      "norm_label": "p7-25 \u533a\u95f4\u5957\u7cbe\u786e\u5b9a\u4f4d",
+      "id": "p7_25_interval_nesting"
     },
     {
       "label": "P7-26 \u64cd\u4f5c\u7ea7\u522b\u9009\u62e9",
@@ -1398,9 +1412,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p7_26_operation_level",
       "community": 8,
-      "norm_label": "p7-26 \u64cd\u4f5c\u7ea7\u522b\u9009\u62e9"
+      "norm_label": "p7-26 \u64cd\u4f5c\u7ea7\u522b\u9009\u62e9",
+      "id": "p7_26_operation_level"
     },
     {
       "label": "P7-27 \u8d44\u91d1\u7ba1\u7406\u4e0e\u6b62\u635f",
@@ -1411,9 +1425,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "p7_27_money_management",
       "community": 8,
-      "norm_label": "p7-27 \u8d44\u91d1\u7ba1\u7406\u4e0e\u6b62\u635f"
+      "norm_label": "p7-27 \u8d44\u91d1\u7ba1\u7406\u4e0e\u6b62\u635f",
+      "id": "p7_27_money_management"
     },
     {
       "label": "\u7ecf\u6d4e\u4eba\u539f\u5219",
@@ -1424,9 +1438,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_economic_person",
       "community": 9,
-      "norm_label": "\u7ecf\u6d4e\u4eba\u539f\u5219"
+      "norm_label": "\u7ecf\u6d4e\u4eba\u539f\u5219",
+      "id": "concept_economic_person"
     },
     {
       "label": "\u80a1\u7968\u5e9f\u7eb8\u6027",
@@ -1437,9 +1451,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_stock_wastepaper",
       "community": 9,
-      "norm_label": "\u80a1\u7968\u5e9f\u7eb8\u6027"
+      "norm_label": "\u80a1\u7968\u5e9f\u7eb8\u6027",
+      "id": "concept_stock_wastepaper"
     },
     {
       "label": "\u7f20\u8bba\u6709\u6548\u6027\u524d\u63d0",
@@ -1450,9 +1464,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_theory_validity",
       "community": 9,
-      "norm_label": "\u7f20\u8bba\u6709\u6548\u6027\u524d\u63d0"
+      "norm_label": "\u7f20\u8bba\u6709\u6548\u6027\u524d\u63d0",
+      "id": "concept_theory_validity"
     },
     {
       "label": "\u4ef7\u683c\u552f\u4e00\u6027\u516c\u8bbe",
@@ -1463,9 +1477,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_price_uniqueness",
-      "community": 11,
-      "norm_label": "\u4ef7\u683c\u552f\u4e00\u6027\u516c\u8bbe"
+      "community": 10,
+      "norm_label": "\u4ef7\u683c\u552f\u4e00\u6027\u516c\u8bbe",
+      "id": "concept_price_uniqueness"
     },
     {
       "label": "\u5b8c\u5168\u5206\u7c7b\u64cd\u4f5c\u539f\u5219",
@@ -1476,9 +1490,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_complete_classification",
-      "community": 11,
-      "norm_label": "\u5b8c\u5168\u5206\u7c7b\u64cd\u4f5c\u539f\u5219"
+      "community": 10,
+      "norm_label": "\u5b8c\u5168\u5206\u7c7b\u64cd\u4f5c\u539f\u5219",
+      "id": "concept_complete_classification"
     },
     {
       "label": "\u5206\u6bb5\u51fd\u6570\u64cd\u4f5c\u6a21\u578b",
@@ -1489,9 +1503,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_segment_function_model",
-      "community": 11,
-      "norm_label": "\u5206\u6bb5\u51fd\u6570\u64cd\u4f5c\u6a21\u578b"
+      "community": 10,
+      "norm_label": "\u5206\u6bb5\u51fd\u6570\u64cd\u4f5c\u6a21\u578b",
+      "id": "concept_segment_function_model"
     },
     {
       "label": "\u559c\u597d\u9677\u9631",
@@ -1502,9 +1516,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_preference_trap",
-      "community": 10,
-      "norm_label": "\u559c\u597d\u9677\u9631"
+      "community": 11,
+      "norm_label": "\u559c\u597d\u9677\u9631",
+      "id": "concept_preference_trap"
     },
     {
       "label": "\u6280\u672f\u6307\u6807\u8bc4\u4ef7\u7cfb\u7edf",
@@ -1515,9 +1529,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_tech_indicator_eval",
-      "community": 10,
-      "norm_label": "\u6280\u672f\u6307\u6807\u8bc4\u4ef7\u7cfb\u7edf"
+      "community": 11,
+      "norm_label": "\u6280\u672f\u6307\u6807\u8bc4\u4ef7\u7cfb\u7edf",
+      "id": "concept_tech_indicator_eval"
     },
     {
       "label": "\u8d4c\u5f92\u5fc3\u7406",
@@ -1528,9 +1542,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_gambler_psychology",
-      "community": 10,
-      "norm_label": "\u8d4c\u5f92\u5fc3\u7406"
+      "community": 11,
+      "norm_label": "\u8d4c\u5f92\u5fc3\u7406",
+      "id": "concept_gambler_psychology"
     },
     {
       "label": "\u98ce\u9669\u7684\u7cfb\u7edf\u5316\u5904\u7406",
@@ -1541,9 +1555,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_risk_systematic",
-      "community": 10,
-      "norm_label": "\u98ce\u9669\u7684\u7cfb\u7edf\u5316\u5904\u7406"
+      "community": 11,
+      "norm_label": "\u98ce\u9669\u7684\u7cfb\u7edf\u5316\u5904\u7406",
+      "id": "concept_risk_systematic"
     },
     {
       "label": "\u8d70\u52bf\u4e2d\u67a2[ZD,ZG]",
@@ -1554,9 +1568,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_pivot_zdg",
       "community": 3,
-      "norm_label": "\u8d70\u52bf\u4e2d\u67a2[zd,zg]"
+      "norm_label": "\u8d70\u52bf\u4e2d\u67a2[zd,zg]",
+      "id": "concept_pivot_zdg"
     },
     {
       "label": "\u7f20\u4e2d\u8bf4\u7985\u76d8\u6574",
@@ -1567,9 +1581,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_pivot_consolidation",
       "community": 3,
-      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u76d8\u6574"
+      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u76d8\u6574",
+      "id": "concept_pivot_consolidation"
     },
     {
       "label": "\u7f20\u4e2d\u8bf4\u7985\u8d8b\u52bf",
@@ -1580,9 +1594,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_pivot_trend",
       "community": 3,
-      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u8d8b\u52bf"
+      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u8d8b\u52bf",
+      "id": "concept_pivot_trend"
     },
     {
       "label": "Z\u8d70\u52bf\u6bb5\uff08Z-Segment\uff09",
@@ -1593,9 +1607,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_z_segment",
       "community": 3,
-      "norm_label": "z\u8d70\u52bf\u6bb5(z-segment)"
+      "norm_label": "z\u8d70\u52bf\u6bb5(z-segment)",
+      "id": "concept_z_segment"
     },
     {
       "label": "\u4e2d\u67a2\u56db\u6307\u6807GG/G/D/DD",
@@ -1606,9 +1620,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_pivot_four_indicators",
       "community": 3,
-      "norm_label": "\u4e2d\u67a2\u56db\u6307\u6807gg/g/d/dd"
+      "norm_label": "\u4e2d\u67a2\u56db\u6307\u6807gg/g/d/dd",
+      "id": "concept_pivot_four_indicators"
     },
     {
       "label": "\u4e2d\u67a2\u4e09\u79cd\u547d\u8fd0\uff08\u5ef6\u4f38/\u6269\u5c55/\u65b0\u751f\uff09",
@@ -1619,9 +1633,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_pivot_three_fates",
       "community": 3,
-      "norm_label": "\u4e2d\u67a2\u4e09\u79cd\u547d\u8fd0(\u5ef6\u4f38/\u6269\u5c55/\u65b0\u751f)"
+      "norm_label": "\u4e2d\u67a2\u4e09\u79cd\u547d\u8fd0(\u5ef6\u4f38/\u6269\u5c55/\u65b0\u751f)",
+      "id": "concept_pivot_three_fates"
     },
     {
       "label": "\u4e2d\u67a2\u5ef6\u4f38",
@@ -1632,9 +1646,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_pivot_extension",
       "community": 3,
-      "norm_label": "\u4e2d\u67a2\u5ef6\u4f38"
+      "norm_label": "\u4e2d\u67a2\u5ef6\u4f38",
+      "id": "concept_pivot_extension"
     },
     {
       "label": "\u9707\u8361\u4e2d\u8f74Z\u4e0eZn\u5e8f\u5217",
@@ -1645,9 +1659,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_oscillation_axis",
       "community": 3,
-      "norm_label": "\u9707\u8361\u4e2d\u8f74z\u4e0ezn\u5e8f\u5217"
+      "norm_label": "\u9707\u8361\u4e2d\u8f74z\u4e0ezn\u5e8f\u5217",
+      "id": "concept_oscillation_axis"
     },
     {
       "label": "\u4e2d\u9634\u9636\u6bb5",
@@ -1658,9 +1672,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_zhongyin_stage",
       "community": 3,
-      "norm_label": "\u4e2d\u9634\u9636\u6bb5"
+      "norm_label": "\u4e2d\u9634\u9636\u6bb5",
+      "id": "concept_zhongyin_stage"
     },
     {
       "label": "\u4e2d\u67a2\u516d\u4ef7\u4f53\u7cfbZG/ZD/GG/G/D/DD",
@@ -1671,9 +1685,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_pivot_six_prices",
       "community": 3,
-      "norm_label": "\u4e2d\u67a2\u516d\u4ef7\u4f53\u7cfbzg/zd/gg/g/d/dd"
+      "norm_label": "\u4e2d\u67a2\u516d\u4ef7\u4f53\u7cfbzg/zd/gg/g/d/dd",
+      "id": "concept_pivot_six_prices"
     },
     {
       "label": "a+A+b+B+c\u5f53\u4e0b\u5206\u6790\u6846\u67b6",
@@ -1684,9 +1698,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_a_plus_a_framework",
       "community": 7,
-      "norm_label": "a+a+b+b+c\u5f53\u4e0b\u5206\u6790\u6846\u67b6"
+      "norm_label": "a+a+b+b+c\u5f53\u4e0b\u5206\u6790\u6846\u67b6",
+      "id": "concept_a_plus_a_framework"
     },
     {
       "label": "\u7b2c\u4e00\u7c7b\u4e70\u70b9",
@@ -1697,9 +1711,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_first_buy",
       "community": 6,
-      "norm_label": "\u7b2c\u4e00\u7c7b\u4e70\u70b9"
+      "norm_label": "\u7b2c\u4e00\u7c7b\u4e70\u70b9",
+      "id": "concept_first_buy"
     },
     {
       "label": "\u7b2c\u4e00\u7c7b\u5356\u70b9",
@@ -1710,9 +1724,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_first_sell",
       "community": 6,
-      "norm_label": "\u7b2c\u4e00\u7c7b\u5356\u70b9"
+      "norm_label": "\u7b2c\u4e00\u7c7b\u5356\u70b9",
+      "id": "concept_first_sell"
     },
     {
       "label": "\u7f20\u4e2d\u8bf4\u7985\u4e70\u5356\u70b9\u5b9a\u5f8b\u4e00",
@@ -1723,9 +1737,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_law_one",
       "community": 6,
-      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u4e70\u5356\u70b9\u5b9a\u5f8b\u4e00"
+      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u4e70\u5356\u70b9\u5b9a\u5f8b\u4e00",
+      "id": "concept_law_one"
     },
     {
       "label": "\u7f20\u4e2d\u8bf4\u7985\u8d8b\u52bf\u8f6c\u6298\u5b9a\u5f8b",
@@ -1736,9 +1750,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_trend_reversal_law",
       "community": 6,
-      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u8d8b\u52bf\u8f6c\u6298\u5b9a\u5f8b"
+      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u8d8b\u52bf\u8f6c\u6298\u5b9a\u5f8b",
+      "id": "concept_trend_reversal_law"
     },
     {
       "label": "\u7b2c\u4e8c\u7c7b\u4e70\u70b9",
@@ -1749,9 +1763,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_second_buy",
       "community": 6,
-      "norm_label": "\u7b2c\u4e8c\u7c7b\u4e70\u70b9"
+      "norm_label": "\u7b2c\u4e8c\u7c7b\u4e70\u70b9",
+      "id": "concept_second_buy"
     },
     {
       "label": "\u7b2c\u4e8c\u7c7b\u5356\u70b9",
@@ -1762,9 +1776,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_second_sell",
       "community": 6,
-      "norm_label": "\u7b2c\u4e8c\u7c7b\u5356\u70b9"
+      "norm_label": "\u7b2c\u4e8c\u7c7b\u5356\u70b9",
+      "id": "concept_second_sell"
     },
     {
       "label": "\u7b2c\u4e09\u7c7b\u4e70\u70b9",
@@ -1775,9 +1789,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_third_buy",
       "community": 7,
-      "norm_label": "\u7b2c\u4e09\u7c7b\u4e70\u70b9"
+      "norm_label": "\u7b2c\u4e09\u7c7b\u4e70\u70b9",
+      "id": "concept_third_buy"
     },
     {
       "label": "\u7b2c\u4e09\u7c7b\u5356\u70b9",
@@ -1788,9 +1802,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_third_sell",
       "community": 7,
-      "norm_label": "\u7b2c\u4e09\u7c7b\u5356\u70b9"
+      "norm_label": "\u7b2c\u4e09\u7c7b\u5356\u70b9",
+      "id": "concept_third_sell"
     },
     {
       "label": "\u4e09\u4e70100%\u83b7\u5229\u6027\u8d28",
@@ -1801,9 +1815,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_third_buy_100pct",
       "community": 7,
-      "norm_label": "\u4e09\u4e70100%\u83b7\u5229\u6027\u8d28"
+      "norm_label": "\u4e09\u4e70100%\u83b7\u5229\u6027\u8d28",
+      "id": "concept_third_buy_100pct"
     },
     {
       "label": "\u4e09\u7c7b\u4e70\u5356\u70b9\u5b8c\u5907\u6027\u5b9a\u7406",
@@ -1814,9 +1828,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_completeness_theorem",
       "community": 6,
-      "norm_label": "\u4e09\u7c7b\u4e70\u5356\u70b9\u5b8c\u5907\u6027\u5b9a\u7406"
+      "norm_label": "\u4e09\u7c7b\u4e70\u5356\u70b9\u5b8c\u5907\u6027\u5b9a\u7406",
+      "id": "concept_completeness_theorem"
     },
     {
       "label": "\u5347\u8dcc\u5b8c\u5907\u6027\u5b9a\u7406",
@@ -1827,9 +1841,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_rise_fall_completeness",
       "community": 7,
-      "norm_label": "\u5347\u8dcc\u5b8c\u5907\u6027\u5b9a\u7406"
+      "norm_label": "\u5347\u8dcc\u5b8c\u5907\u6027\u5b9a\u7406",
+      "id": "concept_rise_fall_completeness"
     },
     {
       "label": "\u5747\u7ebf\u543b\u4e09\u7c7b\u578b\uff08\u98de\u543b/\u5507\u543b/\u6e7f\u543b\uff09",
@@ -1840,9 +1854,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_ma_kiss_types",
       "community": 12,
-      "norm_label": "\u5747\u7ebf\u543b\u4e09\u7c7b\u578b(\u98de\u543b/\u5507\u543b/\u6e7f\u543b)"
+      "norm_label": "\u5747\u7ebf\u543b\u4e09\u7c7b\u578b(\u98de\u543b/\u5507\u543b/\u6e7f\u543b)",
+      "id": "concept_ma_kiss_types"
     },
     {
       "label": "\u4f53\u4f4d\uff08\u5973\u4e0a\u4f4d/\u7537\u4e0a\u4f4d\uff09",
@@ -1853,9 +1867,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_body_position",
       "community": 12,
-      "norm_label": "\u4f53\u4f4d(\u5973\u4e0a\u4f4d/\u7537\u4e0a\u4f4d)"
+      "norm_label": "\u4f53\u4f4d(\u5973\u4e0a\u4f4d/\u7537\u4e0a\u4f4d)",
+      "id": "concept_body_position"
     },
     {
       "label": "\u7f20\u4e2d\u8bf4\u7985\u8d8b\u52bf\u529b\u5ea6\uff08\u5747\u7ebf\u9762\u79ef\u6cd5\uff09",
@@ -1866,9 +1880,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_trend_strength",
       "community": 12,
-      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u8d8b\u52bf\u529b\u5ea6(\u5747\u7ebf\u9762\u79ef\u6cd5)"
+      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u8d8b\u52bf\u529b\u5ea6(\u5747\u7ebf\u9762\u79ef\u6cd5)",
+      "id": "concept_trend_strength"
     },
     {
       "label": "\u7f20\u4e2d\u8bf4\u7985\u677f\u5757\u5f3a\u5f31\u6307\u6807",
@@ -1879,9 +1893,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_sector_strength",
       "community": 12,
-      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u677f\u5757\u5f3a\u5f31\u6307\u6807"
+      "norm_label": "\u7f20\u4e2d\u8bf4\u7985\u677f\u5757\u5f3a\u5f31\u6307\u6807",
+      "id": "concept_sector_strength"
     },
     {
       "label": "\u533a\u95f4\u5957\u5b9a\u4f4d\u6cd5",
@@ -1892,9 +1906,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_interval_nesting_method",
       "community": 14,
-      "norm_label": "\u533a\u95f4\u5957\u5b9a\u4f4d\u6cd5"
+      "norm_label": "\u533a\u95f4\u5957\u5b9a\u4f4d\u6cd5",
+      "id": "concept_interval_nesting_method"
     },
     {
       "label": "\u80cc\u9a70\u6bb5\uff08\u533a\u95f4\u5957\uff09",
@@ -1905,9 +1919,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_backlash_segment",
       "community": 14,
-      "norm_label": "\u80cc\u9a70\u6bb5(\u533a\u95f4\u5957)"
+      "norm_label": "\u80cc\u9a70\u6bb5(\u533a\u95f4\u5957)",
+      "id": "concept_backlash_segment"
     },
     {
       "label": "\u64cd\u4f5c\u7ea7\u522b",
@@ -1918,9 +1932,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_operation_level",
       "community": 8,
-      "norm_label": "\u64cd\u4f5c\u7ea7\u522b"
+      "norm_label": "\u64cd\u4f5c\u7ea7\u522b",
+      "id": "concept_operation_level"
     },
     {
       "label": "\u6301\u80a1\u64cd\u4f5c",
@@ -1931,9 +1945,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_holding_stock",
       "community": 8,
-      "norm_label": "\u6301\u80a1\u64cd\u4f5c"
+      "norm_label": "\u6301\u80a1\u64cd\u4f5c",
+      "id": "concept_holding_stock"
     },
     {
       "label": "\u6301\u5e01\u64cd\u4f5c",
@@ -1944,9 +1958,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_holding_cash",
       "community": 8,
-      "norm_label": "\u6301\u5e01\u64cd\u4f5c"
+      "norm_label": "\u6301\u5e01\u64cd\u4f5c",
+      "id": "concept_holding_cash"
     },
     {
       "label": "\u8d70\u52bf\u6b62\u635f\u6761\u4ef6",
@@ -1957,9 +1971,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_trend_stop_loss",
       "community": 8,
-      "norm_label": "\u8d70\u52bf\u6b62\u635f\u6761\u4ef6"
+      "norm_label": "\u8d70\u52bf\u6b62\u635f\u6761\u4ef6",
+      "id": "concept_trend_stop_loss"
     },
     {
       "label": "\u96f6\u6210\u672c\u6301\u80a1\u72b6\u6001",
@@ -1970,9 +1984,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_zero_cost",
       "community": 8,
-      "norm_label": "\u96f6\u6210\u672c\u6301\u80a1\u72b6\u6001"
+      "norm_label": "\u96f6\u6210\u672c\u6301\u80a1\u72b6\u6001",
+      "id": "concept_zero_cost"
     },
     {
       "label": "\u4e09\u4e2a\u72ec\u7acb\u7a0b\u5e8f\u4e58\u6cd5\u539f\u5219",
@@ -1983,9 +1997,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concept_three_program_multiplication",
       "community": 8,
-      "norm_label": "\u4e09\u4e2a\u72ec\u7acb\u7a0b\u5e8f\u4e58\u6cd5\u539f\u5219"
+      "norm_label": "\u4e09\u4e2a\u72ec\u7acb\u7a0b\u5e8f\u4e58\u6cd5\u539f\u5219",
+      "id": "concept_three_program_multiplication"
     },
     {
       "label": "\u7406\u6027\uff1a\u7ecf\u6d4e\u4eba\u539f\u5219\u7684\u8bbe\u8ba1\u610f\u56fe",
@@ -1996,9 +2010,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "rationale_economic_person",
       "community": 9,
-      "norm_label": "\u7406\u6027:\u7ecf\u6d4e\u4eba\u539f\u5219\u7684\u8bbe\u8ba1\u610f\u56fe"
+      "norm_label": "\u7406\u6027:\u7ecf\u6d4e\u4eba\u539f\u5219\u7684\u8bbe\u8ba1\u610f\u56fe",
+      "id": "rationale_economic_person"
     },
     {
       "label": "\u7406\u6027\uff1a\u5f53\u4e0b\u6027\u54f2\u5b66\u2014\u2014\u4e3a\u4f55\u62d2\u7edd\u9884\u6d4b",
@@ -2009,9 +2023,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "rationale_present_philosophy",
-      "community": 11,
-      "norm_label": "\u7406\u6027:\u5f53\u4e0b\u6027\u54f2\u5b66\u2014\u2014\u4e3a\u4f55\u62d2\u7edd\u9884\u6d4b"
+      "community": 10,
+      "norm_label": "\u7406\u6027:\u5f53\u4e0b\u6027\u54f2\u5b66\u2014\u2014\u4e3a\u4f55\u62d2\u7edd\u9884\u6d4b",
+      "id": "rationale_present_philosophy"
     },
     {
       "label": "\u7406\u6027\uff1a\u4e09\u7c7b\u4e70\u5356\u70b9\u5b8c\u5907\u6027\u7684\u7a77\u4e3e\u8bc1\u660e",
@@ -2022,9 +2036,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "rationale_three_buy_completeness",
       "community": 6,
-      "norm_label": "\u7406\u6027:\u4e09\u7c7b\u4e70\u5356\u70b9\u5b8c\u5907\u6027\u7684\u7a77\u4e3e\u8bc1\u660e"
+      "norm_label": "\u7406\u6027:\u4e09\u7c7b\u4e70\u5356\u70b9\u5b8c\u5907\u6027\u7684\u7a77\u4e3e\u8bc1\u660e",
+      "id": "rationale_three_buy_completeness"
     },
     {
       "label": "\u7406\u6027\uff1a\u96f6\u6210\u672c\u662f\u6d88\u9664\u98ce\u9669\u7684\u552f\u4e00\u8def\u5f84",
@@ -2035,9 +2049,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "rationale_zero_cost",
       "community": 8,
-      "norm_label": "\u7406\u6027:\u96f6\u6210\u672c\u662f\u6d88\u9664\u98ce\u9669\u7684\u552f\u4e00\u8def\u5f84"
+      "norm_label": "\u7406\u6027:\u96f6\u6210\u672c\u662f\u6d88\u9664\u98ce\u9669\u7684\u552f\u4e00\u8def\u5f84",
+      "id": "rationale_zero_cost"
     }
   ],
   "links": [
@@ -5164,6 +5178,61 @@
   ],
   "hyperedges": [
     {
+      "id": "P8\u9ad8\u9636\u7efc\u5408\u5e94\u7528\u4f53\u7cfb",
+      "label": "P8\u9ad8\u9636\u5e94\u7528\u7efc\u5408\uff08\u725b\u718a\u5e02\u5224\u65ad\u3001\u53cd\u5e84\u64cd\u4f5c\u3001\u5b9e\u6218\u6848\u4f8b\u534f\u540c\uff09",
+      "nodes": [
+        "p8_28_\u725b\u718a\u5e02\u5224\u65ad",
+        "p8_29_\u53cd\u5e84\u64cd\u4f5c",
+        "p8_30_\u5b9e\u6218\u6848\u4f8b",
+        "p8_30_\u5f53\u4e0b\u56fe\u89e3\u5206\u6790\u6cd5"
+      ],
+      "relation": "implement",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "organized-v2/00-\u603b\u8bba.md"
+    },
+    {
+      "id": "\u5f62\u6001\u5b66\u5c42\u7ea7\u4f9d\u8d56\u94fe",
+      "label": "\u5f62\u6001\u5b66\u6784\u4ef6\u7684\u5c42\u7ea7\u9012\u8fdb\u4f9d\u8d56\u5173\u7cfb\uff08\u5206\u578b\u2192\u7b14\u2192\u7ebf\u6bb5\u2192\u4e2d\u67a2\uff09",
+      "nodes": [
+        "p2_04_\u5206\u578b",
+        "p2_05_\u7b14",
+        "p2_06_\u7ebf\u6bb5",
+        "p2_07_\u9012\u5f52\u51fd\u6570f1"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "organized-v2/P2-\u5f62\u6001\u5b66\u57fa\u7840/P2-07-\u5f62\u6001\u5b66\u603b\u8bba\u4e0e\u9012\u5f52\u51fd\u6570.md"
+    },
+    {
+      "id": "three_buy_sell_completeness_system",
+      "label": "\u4e09\u7c7b\u4e70\u5356\u70b9\u5b8c\u5907\u4f53\u7cfb\uff08\u7b2c\u4e00/\u4e8c/\u4e09\u7c7b\u8054\u5408\u6784\u6210\u5b8c\u5907\u64cd\u4f5c\u4f53\u7cfb\uff09",
+      "nodes": [
+        "concept_first_buy",
+        "concept_second_buy",
+        "concept_third_buy",
+        "concept_completeness_theorem"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "organized-v2/P6-\u4e70\u5356\u70b9\u4f53\u7cfb/P6-23-\u4e09\u7c7b\u4e70\u5356\u70b9\u7684\u5b8c\u5907\u6027.md"
+    },
+    {
+      "id": "operation_system_trinity",
+      "label": "\u64cd\u4f5c\u7cfb\u7edf\u4e09\u4f4d\u4e00\u4f53\uff08\u64cd\u4f5c\u7ea7\u522b+\u533a\u95f4\u5957\u5b9a\u4f4d+\u8d44\u91d1\u7ba1\u7406\uff09",
+      "nodes": [
+        "concept_operation_level",
+        "concept_interval_nesting_method",
+        "concept_zero_cost"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.82,
+      "source_file": "organized-v2/P7-\u64cd\u4f5c\u7cfb\u7edf/P7-26-\u64cd\u4f5c\u7ea7\u522b\u9009\u62e9.md"
+    },
+    {
       "id": "\u5f62\u6001\u5b66\u5c42\u7ea7\u4f9d\u8d56\u94fe",
       "label": "\u5f62\u6001\u5b66\u6784\u4ef6\u7684\u5c42\u7ea7\u9012\u8fdb\u4f9d\u8d56\u5173\u7cfb\uff08\u5206\u578b\u2192\u7b14\u2192\u7ebf\u6bb5\u2192\u4e2d\u67a2\uff09",
       "nodes": [
@@ -5204,47 +5273,6 @@
       "confidence": "INFERRED",
       "confidence_score": 0.85,
       "source_file": "organized-v2/00-\u603b\u8bba.md"
-    },
-    {
-      "id": "three_buy_sell_completeness_system",
-      "label": "\u4e09\u7c7b\u4e70\u5356\u70b9\u5b8c\u5907\u4f53\u7cfb\uff08\u7b2c\u4e00/\u4e8c/\u4e09\u7c7b\u8054\u5408\u6784\u6210\u5b8c\u5907\u64cd\u4f5c\u4f53\u7cfb\uff09",
-      "nodes": [
-        "concept_first_buy",
-        "concept_second_buy",
-        "concept_third_buy",
-        "concept_completeness_theorem"
-      ],
-      "relation": "form",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.95,
-      "source_file": "organized-v2/P6-\u4e70\u5356\u70b9\u4f53\u7cfb/P6-23-\u4e09\u7c7b\u4e70\u5356\u70b9\u7684\u5b8c\u5907\u6027.md"
-    },
-    {
-      "id": "operation_system_trinity",
-      "label": "\u64cd\u4f5c\u7cfb\u7edf\u4e09\u4f4d\u4e00\u4f53\uff08\u64cd\u4f5c\u7ea7\u522b+\u533a\u95f4\u5957\u5b9a\u4f4d+\u8d44\u91d1\u7ba1\u7406\uff09",
-      "nodes": [
-        "concept_operation_level",
-        "concept_interval_nesting_method",
-        "concept_zero_cost"
-      ],
-      "relation": "form",
-      "confidence": "INFERRED",
-      "confidence_score": 0.82,
-      "source_file": "organized-v2/P7-\u64cd\u4f5c\u7cfb\u7edf/P7-26-\u64cd\u4f5c\u7ea7\u522b\u9009\u62e9.md"
-    },
-    {
-      "id": "pivot_theory_core",
-      "label": "\u4e2d\u67a2\u7406\u8bba\u6838\u5fc3\uff08ZG/ZD+Z\u8d70\u52bf\u6bb5+\u4e09\u79cd\u547d\u8fd0\uff09",
-      "nodes": [
-        "concept_pivot_zdg",
-        "concept_z_segment",
-        "concept_pivot_three_fates",
-        "concept_pivot_six_prices"
-      ],
-      "relation": "form",
-      "confidence": "EXTRACTED",
-      "confidence_score": 0.9,
-      "source_file": "organized-v2/P3-\u4e2d\u67a2\u7406\u8bba/P3-11-\u4e2d\u67a2\u4e2d\u5fc3\u5b9a\u7406.md"
     }
   ]
 }
